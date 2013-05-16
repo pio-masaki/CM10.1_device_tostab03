@@ -1,0 +1,9 @@
+#!/system/bin/sh
+#
+
+
+sysctl -p
+
+
+mount -t vfat -o rw,dirsync,nosuid,nodev,noexec,shortname=mixed,errors=remount-ro /dev/block/mmcblk1p1 /storage/sdcard2
+

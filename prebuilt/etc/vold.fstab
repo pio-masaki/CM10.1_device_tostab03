@@ -1,4 +1,4 @@
-## Vold 2.0 fstab for antares
+## Vold 2.0 fstab
 
 #######################
 ## Regular device mount
@@ -9,7 +9,7 @@
 ## part         - Partition # (1 based), or 'auto' for first usable partition.
 ## <sysfs_path> - List of sysfs paths to source devices
 ######################
-dev_mount sdcard /storage/sdcard2 auto /devices/platform/sdhci-tegra.2/mmc_host/mmc1
-dev_mount usb0 /storage/usbdisk1 auto /devices/platform/tegra-ehci.2/usb1/1-1/1-1.2 /devices/platform/tegra-ehci.2/usb2/2-1/2-1.2
-dev_mount usb1 /storage/usbdisk0 auto /devices/platform/tegra-ehci.2/usb1/1-1/1-1.1 /devices/platform/tegra-ehci.2/usb2/2-1/2-1.1 /devices/platform/tegra-ehci.2/usb2/2-1/2-1:1 /devices/platform/tegra-ehci.2/usb1/1-1/1-1:1
 
+# Configuration of tostab03
+dev_mount sdcard /storage/sdcard1 auto /devices/platform/sdhci-tegra.2/mmc_host/mmc1
+dev_mount usbdisk0 /storage/usbdisk0 auto /devices/platform/tegra-ehci.2/usb1/1-1/1-1.2 /devices/platform/tegra-ehci.2/usb2/2-1/2-1.2

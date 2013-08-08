@@ -1,7 +1,7 @@
 #
-# system.prop for toshiba tostab03
+# system.prop for tostab03
 #
-# possibly needed for supporting 3G
+# 3GUSB
 rild.libpath=/system/lib/libhuawei-ril.so
 rild.libargs=-d /dev/ttyUSB2
 
@@ -11,4 +11,4 @@ ro.opengles.surface.rgb565=true
 persist.sys.usb.config=mtp,adb 
 ro.sf.lcd_density=160 
 ro.setupwizard.mode=OPTIONAL 
-windowsmgr.max_events_per_sec=90
+windowsmgr.max_events_per_sec=190

@@ -41,7 +41,7 @@ key 0x129    BUTTON_R2
 key 0x121    BUTTON_THUMBL
 key 0x122    BUTTON_THUMBR
 
-# Button with PlayStation logo maps to HOME
+# Button with Playstation logo maps to HOME
 key 0x2d0    HOME
 
 # Left Analog Stick

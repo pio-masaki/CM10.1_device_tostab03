@@ -17,21 +17,21 @@
 #
 # NVIDIA Normalized Gamepad
 
-key 0x130    BUTTON_A
-key 0x131    BUTTON_B
-key 0x133    BUTTON_X
-key 0x134    BUTTON_Y
-# Button "LB" maps to BUTTON_L1.
-key 0x136    BUTTON_L1
-# Button "RB" maps to BUTTON_R1.
-key 0x137    BUTTON_R1
-key 0x13a    BACK
-key 0x13b    BUTTON_START
-# Button with Xbox logo maps to HOME.
-key 0x13c    HOME
+key 0x130   BUTTON_A
+key 0x131   BUTTON_B
+key 0x133   BUTTON_X
+key 0x134   BUTTON_Y
+# Button "LB" maps to BUTTON_L1
+key 0x136   BUTTON_L1
+# Button "RB" maps to BUTTON_R1
+key 0x137   BUTTON_R1
+key 0x13a   BACK
+key 0x13b   BUTTON_START
+# Button with XBox logo maps to HOME
+key 0x13c   HOME
 # These two keycodes are for click (press from above) on analog control sticks.
-key 0x13d    BUTTON_THUMBL
-key 0x13e    BUTTON_THUMBR
+key 0x13d   BUTTON_THUMBL
+key 0x13e   BUTTON_THUMBR
 
 # Left (0x00, 0x01) and right (0x03, 0x04) analog control stick.
 # The reported value for flat is 128 out of a range from -32767 to 32768, which is absurd.
